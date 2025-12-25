@@ -3,8 +3,8 @@
 A homemade chatbot powered by Flask and Ollama
 
 ## Requirements
-Python
-Flask
+Python, 
+Flask, 
 Ollama (download a model of your choice)
 
 ## Configuration
