@@ -34,7 +34,7 @@ def chat():
         return jsonify({"response": data.get("message", {}).get("content", "Brak odpowiedzi")})
 
     except requests.exceptions.RequestException as e:
-        return jsonify({"error": f"Błąd komunikacji z Ollama: {str(e)}"}), 500
+        return jsonify({"error": f"Communication error with Ollama: {str(e)}"}), 500
 
 
 
